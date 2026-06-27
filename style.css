@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h1 span {
+    color: #2563eb;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #334155;
+    font-weight: 500;
+}
+
+/* hero section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90vh;
+    padding: 80px 60px;
+    gap: 50px;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.hero h2 {
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #64748b;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.hero button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+.features-section {
+    text-align: center;
+    padding: 100px 60px;
+}
+
+.features-section h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-card h3 {
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #1e293b;
+    color: white;
+    padding: 50px 60px;
+    text-align: center;
+}
+
+.footer-content h2 {
+    margin-bottom: 15px;
+}
+
+.footer-content p {
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+@media (max-width:768px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero h2 {
+        font-size: 42px;
+    }
+}

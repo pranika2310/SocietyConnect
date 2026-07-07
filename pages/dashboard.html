@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../assets/css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <aside class="sidebar">
+            <h2>SocietyConnect</h2>
+            <ul>
+                <li class="active"><i class="fa-solid fa-house"></i> Dashboard</li>
+                <li><i class="fa-solid fa-bullhorn"></i> Notices</li>
+                <li><i class="fa-solid fa-triangle-exclamation"></i> Complaints</li>
+                <li><i class="fa-solid fa-calendar-days"></i> Events</li>
+                <li><i class="fa-solid fa-store"></i> Marketplace</li>
+                <li><i class="fa-solid fa-users"></i> Residents</li>
+                <li><i class="fa-solid fa-door-open"></i> Visitors</li>
+                <li><i class="fa-solid fa-gear"></i> Settings</li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <div class="top-bar">
+
+                <div class="search-box">
+
+                    <input type="text" placeholder="Search...">
+
+                </div>
+
+                <div class="top-right">
+
+                    <button class="notification-btn">
+                        🔔
+                    </button>
+
+                    <div class="profile">
+
+                        <img src="../assets/images/profile.png" alt="Profile">
+
+                        <div>
+
+                            <h4>Pranika</h4>
+
+                            <p>Administrator</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <section class="welcome-section">
+
+                <h1>Good Evening, Pranika </h1>
+
+                <p>
+                    Welcome back! Here's what's happening in your society today.
+                </p>
+
+            </section>
+            <section class="dashboard-grid">
+
+                <!-- Recent Notices -->
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <h3>Recent Notices</h3>
+
+                        <a href="#">View All</a>
+
+                    </div>
+
+                    <div class="notice">
+
+                        <div class="notice-icon">📢</div>
+
+                        <div>
+
+                            <h4>Water Supply Maintenance</h4>
+
+                            <p>Today • 10:00 AM</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="notice">
+
+                        <div class="notice-icon">📢</div>
+
+                        <div>
+
+                            <h4>Society Meeting</h4>
+
+                            <p>Tomorrow • 5:00 PM</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="notice">
+
+                        <div class="notice-icon">📢</div>
+
+                        <div>
+
+                            <h4>Parking Update</h4>
+
+                            <p>Friday • 9:00 AM</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Complaint Status -->
+
+                <div class="panel">
+                    <h3>Complaint Status</h3>
+                    <div class="status-row">
+                        <span>Water Leakage</span>
+                        <span class="resolved">Resolved</span>
+                    </div>
+                    <div class="status-row">
+                        <span>Lift Issue</span>
+                        <span class="pending">Pending</span>
+                    </div>
+                    <div class="status-row">
+                        <span>Cleaning Request</span>
+                        <span class="progress">In Progress</span>
+                    </div>
+                </div>
+            </section>
+            <section class="bottom-grid">
+
+                <!-- Quick Actions -->
+
+                <div class="panel">
+
+                    <h3>Quick Actions</h3>
+
+                    <div class="actions">
+
+                        <button>Add Complaint</button>
+
+                        <button>Add Notice</button>
+
+                        <button>Add Visitor</button>
+
+                        <button>Marketplace</button>
+
+                    </div>
+
+                </div>
+
+                <!-- Upcoming Events -->
+
+                <div class="panel">
+
+                    <h3>Upcoming Events</h3>
+
+                    <div class="event">
+
+                        <h4>🎉 Independence Day Celebration</h4>
+
+                        <p>15 August • Community Hall</p>
+
+                    </div>
+
+                    <div class="event">
+
+                        <h4>🏏 Cricket Tournament</h4>
+
+                        <p>22 August • Society Ground</p>
+
+                    </div>
+
+                    <div class="event">
+
+                        <h4>🩸 Blood Donation Camp</h4>
+
+                        <p>28 August • Club House</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+
+    <script src="../assets/js/dashboard.js"></script>
+
+</body>
+
+</html>

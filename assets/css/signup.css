@@ -7,7 +7,7 @@
 }
 
 body {
-      background: linear-gradient(180deg,
+    background: linear-gradient(180deg,
             #15455a,
             black);
     display: flex;
@@ -18,7 +18,7 @@ body {
 
 .left-panel {
     flex: 1;
-         background: linear-gradient(180deg,
+    background: linear-gradient(180deg,
             #1D546C,
             black);
 
@@ -46,7 +46,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 40px 20px;;
+    padding: 20px 40px 20px;
+    ;
 }
 
 .signup-container {
@@ -54,9 +55,9 @@ body {
     max-width: 1100px;
     display: flex;
     background:
-    radial-gradient(circle at top,
-  #245D78,
-    #09151A);
+        radial-gradient(circle at top,
+            #245D78,
+            #09151A);
 
     border: 1px solid rgba(255, 255, 255, .2);
 
@@ -99,9 +100,11 @@ body {
     width: 100%;
     margin-bottom: 0;
 }
+
 #signupPassword {
     margin-bottom: 18px;
 }
+
 #confirmPassword {
     margin-bottom: 18px;
 }
@@ -127,9 +130,8 @@ button {
 }
 
 button:hover {
-   transform:translateY(-2px);
-
-     box-shadow:0 10px 20px rgba(0,0,0,.15);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .15);
     background: #C68C82;
 }
 
